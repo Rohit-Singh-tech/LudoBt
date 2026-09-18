@@ -1,0 +1,20 @@
+{
+  "name": "ludo-multiplayer-server",
+  "version": "1.0.0",
+  "description": "Authoritative real-time Ludo game server with matchmaking, turn timers, and move validation",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "keywords": [
+    "ludo",
+    "multiplayer",
+    "websocket",
+    "authoritative-server"
+  ],
+  "author": "Ludo Nearby Team",
+  "license": "MIT"
+}
